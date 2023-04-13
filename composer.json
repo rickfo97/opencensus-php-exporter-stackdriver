@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=5.6",
-        "opencensus/opencensus": "~0.5",
+        "opencensus/opencensus": "dev-master",
         "google/cloud-trace": "~0.9"
     },
     "require-dev": {
@@ -23,5 +23,11 @@
         "psr-4": {
             "OpenCensus\\Trace\\Exporter\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rickfo97/opencensus-php.git"
+        }
+    ]
 }
