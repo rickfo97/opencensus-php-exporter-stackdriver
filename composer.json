@@ -18,7 +18,8 @@
             "email": "chingor@google.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "OpenCensus\\Trace\\Exporter\\": "src/"
